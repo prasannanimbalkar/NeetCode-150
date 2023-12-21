@@ -20,8 +20,8 @@ public class TwoSum {
         for (int i = 0; i < nums.length; i++) {
             int diff = target - nums[i];
 
-            //If the complement exists in the map, it means we have found a pair whose sum is equal to the target.
-            //The indices of these two numbers (the current index i and the index of the complement from the map) are then returned.
+            //If the diff exists in the map, it means we have found a pair whose sum is equal to the target.
+            //The indices of these two numbers (the current index i and the index of the diff from the map) are then returned.
             if (map.containsKey(diff)) {
                 return new int[] { map.get(diff), i };
             }
