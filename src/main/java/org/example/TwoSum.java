@@ -18,12 +18,12 @@ public class TwoSum {
         Map<Integer, Integer> map = new HashMap<>();
 
         for (int i = 0; i < nums.length; i++) {
-            int complement = target - nums[i];
+            int diff = target - nums[i];
 
             //If the complement exists in the map, it means we have found a pair whose sum is equal to the target.
             //The indices of these two numbers (the current index i and the index of the complement from the map) are then returned.
-            if (map.containsKey(complement)) {
-                return new int[] { map.get(complement), i };
+            if (map.containsKey(diff)) {
+                return new int[] { map.get(diff), i };
             }
             map.put(nums[i], i);
         }
