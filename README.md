@@ -1,5 +1,7 @@
-# NeeTCode 150 Problems
+# [NeeTCode](https://neetcode.io/practice) 150 Problems
 
-- Contains Duplicate
+### Problems
+
+- [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)
 - Valid Anagram
 - Two Sum
