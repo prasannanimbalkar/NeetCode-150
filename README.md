@@ -1,4 +1,4 @@
-# [NeeTCode](https://neetcode.io/practice) 150 Problems
+# [NeetCode](https://neetcode.io/practice) 150 Problems
 
 ### Arrays and Hashing
 
