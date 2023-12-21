@@ -1,4 +1,4 @@
-#NeeCode 150 Problems
+# NeeTCode 150 Problems
 
 - Contains Duplicate
 - Valid Anagram
