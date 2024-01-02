@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Extras;
 
 //https://leetcode.com/problems/maximum-average-subarray-i/description/
 
